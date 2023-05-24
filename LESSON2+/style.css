@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.item {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    margin: 10px;
+}
+.item__3 {
+    width: calc(33% - 20px);
+    height: 200px;
+}
+.main {
+    background-color: green;
+    margin-bottom: 20px;
+}
+.main__1 {
+    display: flex;
+    justify-content: center;
+}
+.main__2 {
+    display: flex;
+    justify-content: space-between;
+}
+.main__3 {
+    display: flex;
+    flex-wrap: wrap;
+}
