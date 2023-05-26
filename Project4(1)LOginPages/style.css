@@ -8,8 +8,8 @@
     aspect-ratio: 1/2;
     background-color: aquamarine;
 }
-.html,
-.body,
+html,
+body,
 .container{
     height: 100%;
 }
@@ -29,4 +29,31 @@ img {
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2,p {
+    text-align: center;
+}
+h2{
+    margin: 8px 0;
+}
+.button_p_h2{
+    margin-bottom: 20px;
+}
+.button-action {
+    padding: 10px 0;
+    border-radius: 12px;
+    border: 1px solid rgb(181, 181, 181);
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 8px;
+}
+.or {
+    margin-bottom: 8px;
 }
