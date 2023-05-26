@@ -6,7 +6,7 @@
 .form {
     width: 350px;
     aspect-ratio: 1/2;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 html,
 body,
@@ -20,12 +20,12 @@ body,
 .right {
     width: 50%;
 }
-figure {
+.right_figure {
     height: 100%;
     width: 100%;
     line-height: 0;
 }
-img {
+.right_img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -40,7 +40,7 @@ h2,p {
     text-align: center;
 }
 h2{
-    margin: 8px 0;
+     margin-bottom: 8px;
 }
 .button_p_h2{
     margin-bottom: 20px;
@@ -52,8 +52,30 @@ h2{
     cursor: pointer;
     text-align: center;
     width: 100%;
-    margin-bottom: 8px;
+    margin: 6px 0;
+    background-color: white;
 }
 .or {
-    margin-bottom: 8px;
+    margin: 10px 0;
+}
+.icon_button {
+    width: 20px;
+}
+.icon {
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.dont {
+    margin-top: 8px;
+}
+a {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+.continue {
+    background-color: black;
+    color: white;
 }
