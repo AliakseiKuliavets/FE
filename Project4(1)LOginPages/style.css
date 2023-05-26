@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form {
+    width: 350px;
+    aspect-ratio: 1/2;
+    background-color: aquamarine;
+}
+.html,
+.body,
+.container{
+    height: 100%;
+}
+.container {
+    display: flex;
+}
+.left, 
+.right {
+    width: 50%;
+}
+figure {
+    height: 100%;
+    width: 100%;
+    line-height: 0;
+}
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
