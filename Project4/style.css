@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    background-color: #eeeff1;
+    padding: 100px 0;
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper {
+    width: 30%;
+    margin: auto;
+}
+h3 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+p {
+    color: #838383;
+    text-align: center;
+    margin-bottom: 65px;
+}
+.form-control {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+input[type="text"], input[type="email"] {
+    width: 50%;
+    padding: 20px;
+    border: 1px solid transparent;
+    outline: none;
+    caret-color: blue;
+}
+input[type="text"]:focus {  /*focus при нажатии hover при наведении*/
+    border: 1px solid yellow; 
+}
+textarea {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid transparent;
+    outline: none;
+}
+input[type="submit"] {
+    display: block;
+    margin: 50px auto 0;
+    padding: 20px 45px;
+    background-color: darkcyan;
+    color: #ffff;
+    border: 1px solid transparent;
+    outline: none;
+    text-transform: uppercase; /*все буквы в большие*/
+    letter-spacing: 0.15em; /*отступ между буквами*/
+}
+input, textarea {
+    font-family: 'Roboto', sans-serif;
+}
+input::placeholder {
+    font-family: 'Roboto', sans-serif; /*изменения в placeholder стиль цвет*/
+}
+
+
+/* 
+display: flex;
+justify-content: center; */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container {
+    background-color: greenyellow;
+    padding: 20px;
+}
+.text {
+    width: 50%;
+    background-color: darkturquoise;
+    margin-bottom: 10px;
+}
+a {
+    background-color: yellow;
+} */
