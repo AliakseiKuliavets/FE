@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: aliceblue;
+}
+section {
+    background-color: white;
+    width: 95%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* начало первого  */
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+}
+.header_link {
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}
+.header_img {
+    width: 90%;
+}
+.header_a_div {
+    margin-top: 10px;
+}
+.header_a {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+.get_started {
+    color: white;
+    background-color: #55ad99;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+/* начало второго  */
+.refueling_car {
+    display: flex;
+    width: 95%;
+    margin: auto;
+}
+.left_h1 {
+    margin-top: 100px;
+    width: 40%;
+}
+.right_img {
+    width: 55%;
+}
+h1 {
+    font-size: 56px;
+    margin-bottom: 30px;
+}
+.left_button_store {
+    display: flex;
+    margin: 40px 0;
+}
+.left_button_link_store {
+    display: flex;
+    background-color: #2c2b2d ;
+    padding: 10px  10px ;
+    color: white;
+    border-radius: 30px;
+    margin: 40px 8px 40px 0 ;
+}
+.button_p {
+    margin-top: 5px;
+}
+.left_button_store_p1 {
+    font-size: 8px;
+}
+.left_button_store_img {
+    border: 1px white solid;
+    border-radius: 30px;
+    padding: 5px;
+    margin-right: 10px;
+}
+.left_button_link {
+    display: flex;
+    gap: 15px;
+}
+.left_button_link_img {
+    width: 16px;
+    margin: 6px 8px;
+    padding-top: 3px;
+}
+.left_button_link_img_div {
+    border: 2px  #2c2b2d solid;
+    border-radius: 20px;
+}
+
+/* 
+Начало третьего  */
+.button_by {
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    margin: auto;
+    gap: 30px;
+}
+.button_by_link {
+    width: 33%;
+    border: 1px rgb(222, 222, 222) solid ;
+    border-radius: 20px;
+}
+.button_by_link:hover {
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+.button_by_1_3 {
+    width: 75%;
+    margin: auto;
+}
+.button_by_1_3_img {
+    margin: 40px 0px 20px 0px;
+}
+.button_by_1_3_p {
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
