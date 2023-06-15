@@ -15,7 +15,7 @@
 //                 console.log(i)
 //             }
 //         }
-//     } else {
+//     } else if (num1 < num2) {
 //         if (num2 % 2 == 0) {
 //             for (let i = num2; i >= num1; i -= 2)
 //                 console.log(i)
@@ -25,6 +25,8 @@
 //                 console.log(i)
 //             }
 //         }
+//     } else {
+//         console.log(num1)
 //     }
 // }
 // SM(num1, num2)
