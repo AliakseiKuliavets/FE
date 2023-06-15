@@ -5,18 +5,32 @@
 
 // function SM(num1, num2) {
 //     if (num1 > num2) {
-//         for( let i = num1; i >= num2; i-=2){
-//             console.log(i)
+//         if (num1 % 2 == 0) {
+//             for (let i = num1; i >= num2; i -= 2) {
+//                 console.log(i)
+//             }
+//         } else {
+//             let x = num1 - 1
+//             for (let i = x; i >= num2; i -= 2) {
+//                 console.log(i)
+//             }
 //         }
 //     } else {
-//         for(let i = num2; i >= num1; i-=2)
-//         console.log(i)
+//         if (num2 % 2 == 0) {
+//             for (let i = num2; i >= num1; i -= 2)
+//                 console.log(i)
+//         } else {
+//             let x = num1 - 1
+//             for (let i = x; i < num2; i += 2) {
+//                 console.log(i)
+//             }
+//         }
 //     }
 // }
 // SM(num1, num2)
 
 
-// // 2. Напишите функцию power, которая принимает два числовых аргумента (основание степени и саму степень) 
+// // 2. Напишите функцию power, которая принимает два числовых аргумента (основание степени и саму степень)
 // // и возвращает число в указанной степени. Значение степени должно быть указано по умолчанию 2.
 // let n1 = +prompt("Введите число которую хотите возвести в степень")
 // let n2 = +prompt("Введите в которую степень хотите возвести число")
@@ -40,7 +54,7 @@
 
 // function sum(n) {
 //     let x = 0
-//     for(let i = 1; i <= n; i++){ 
+//     for(let i = 1; i <= n; i++){
 //         x = (n * (n+1)) / 2
 //     }
 //     console.log(x)
@@ -49,16 +63,17 @@
 // sum(n)
 
 
-// // 4. Напишите функцию, которая принимает два числовых аргумента n и m 
-// //и считает сумму четных чисел и нечетных чисел от n до m. 
+// // 4. Напишите функцию, которая принимает два числовых аргумента n и m
+// //и считает сумму четных чисел и нечетных чисел от n до m.
 // //Суммы выведите в консоль (в начале сумму четных чисел, а затем сумму нечетных).
 
-//     function array(N, M) {
+
+// function array(N, M) {
 //     let sumEven = 0;
 //     let sumOdd = 0;
 //     let numberArray = []
-//     for (let i = N ; i <= M; i++) {
-//             numberArray.push(i);
+//     for (let i = N; i <= M; i++) {
+//         numberArray.push(i);
 //     }
 //     for (let i = 0; i < numberArray.length; i++) {
 //         if (numberArray[i] % 2 == 0) {
@@ -74,7 +89,7 @@
 //     console.log(sumOdd)
 //     console.log(sumEven)
 // }
-// array(+prompt("Первый числовой аргумент"), +prompt("Второй числовой аргумент"));
+// array(+prompt("Первый числовой аргумент "), +prompt("Второй числовой аргумент"));
 
 
 
@@ -101,4 +116,4 @@
 //             "");
 //     }
 // }
-// console.log(Name(['one', 'two', 'three', 'viwee']))
+// console.log(Name(['one', 'two', 'three', 'viwee']));
