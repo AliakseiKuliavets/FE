@@ -26,7 +26,11 @@
 //             }
 //         }
 //     } else {
-//         console.log(num1)
+//         if (num1 % 2 == 0) {
+//             console.log(num1)
+//         } else {
+//             console.log("нет четных чисел")
+//         }
 //     }
 // }
 // SM(num1, num2)
