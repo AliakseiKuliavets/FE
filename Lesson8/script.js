@@ -1,5 +1,5 @@
-// 1.Написать цикл, который создает множество параграфов с каждым десятым числом в промежутке от 100 до 50 (т.е. 100, 90, 80, 70, 60, 50).
-// Добавить созданные параграфы в div с классом numbers.
+// // 1.Написать цикл, который создает множество параграфов с каждым десятым числом в промежутке от 100 до 50 (т.е. 100, 90, 80, 70, 60, 50).
+// // Добавить созданные параграфы в div с классом numbers.
 
 // let body = document.querySelector("body") 
 // body.innerHTML = `<div class= "numbers" ></div>`
@@ -54,9 +54,13 @@
 // for(let i=0; i < object.length; i++){
 // if( object[i].age >= 18) {
 //     user_container.innerHTML += `
+//     <div>
 //     <p>First Name: ${object[i].first_name}</p>
 //     <p>Last Name: ${object[i].last_name}</p>
 //     <p>Age: ${object[i].age}</p>
+//     </div>
 //     `
 // }
 // }
+
+
