@@ -5,34 +5,27 @@
 
 // function SM(num1, num2) {
 //     if (num1 > num2) {
-//         if (num1 % 2 == 0) {
-//             for (let i = num1; i >= num2; i -= 2) {
-//                 console.log(i)
+//         for (let i = num1; i >= num2; i--){
+//             if (i % 2 == 0) {
+//                 console.log(i);
 //             }
-//         } else {
-//             let x = num1 - 1
-//             for (let i = x; i >= num2; i -= 2) {
-//                 console.log(i)
-//             }
-//         }
-//     } else if (num1 < num2) {
-//         if (num2 % 2 == 0) {
-//             for (let i = num2; i >= num1; i -= 2)
-//                 console.log(i)
-//         } else {
-//             let x = num1 - 1
-//             for (let i = x; i < num2; i += 2) {
-//                 console.log(i)
-//             }
-//         }
-//     } else {
-//         if (num1 % 2 == 0) {
-//             console.log(num1)
-//         } else {
-//             console.log("нет четных чисел")
 //         }
 //     }
-// }
+//     else if (num2 > num1) {
+//         for (let i = num2; i >= num1; i--){
+//             if (i % 2 == 0) {
+//                 console.log(i);
+//             }
+//         }
+//     }
+//     else if (num1 == num2){
+//             if (num1 % 2 == 0) {
+//                 console.log(num1);
+//             }
+//             else console.log("Нет четных чисел");
+//         }
+
+//     }
 // SM(num1, num2)
 
 
@@ -123,3 +116,6 @@
 //     }
 // }
 // console.log(Name(['one', 'two', 'three', 'viwee']));
+
+
+
